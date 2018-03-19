@@ -1,11 +1,11 @@
 var http = require('http'),
 	fs = require('fs')
-	parser = require('./parser_var.js'),
-	p = parser.parse_vars,
-	datos = parser.batman;
+	mes = require('./meses_var.js'),
+	p = mes.parse_vars,
+	datos = mes.meses;
 
 http.createServer(function(req,res){
-	fs.readFile('./form.html',function(err,html){
+	fs.readFile('./menu.html',function(err,html){
 		var html_string = html.toString();
 
 		var respuesta = p(req),
@@ -15,8 +15,14 @@ http.createServer(function(req,res){
 		for (var i=0; i<parametros.length; i++){
 			 var html_string = html_string.replace('{'+parametros[i]+'}', valores[i]);
 		}
-			html_string = html_string.replace('{identidad}',datos['identidad']);
-			html_string = html_string.replace('{poder}',datos['poder']);
+
+		if (valores==1) {
+			html_string = html_string.replace('{uno}',datos['uno']);
+		}else if (valores==2) {
+			html_string = html_string.replace('{dos}',datos['dos']);
+		}
+
+
 		res.writeHead(200,{'Content-type':'text'});
 		res.write(html_string);
 		res.end();

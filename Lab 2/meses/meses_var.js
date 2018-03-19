@@ -1,8 +1,7 @@
-function parse_vars(req){
+function meses_valor(req){
 	var arreglo_parametros = [],
 		parametros = [],
 		valores = [];
-
 	if (req.url.indexOf('?')>0) {
 		var url_data = req.url.split('?');
 		var arreglo_parametros = url_data[1].split('&');
@@ -20,8 +19,22 @@ function parse_vars(req){
 	};
 }
 
-module.exports.parse_vars = parse_vars;
+module.exports.meses_valor = meses_valor();
 module.exports.batman = {
 	identidad: 'Bruce Wayne',
 	poder: 'Dinero'
+};
+module.exports.meses = {
+	uno: 'Enero',
+	dos: 'Febrero',
+	tres: 'Marzo',
+	cuatro: 'Abril',
+	cinco: 'Mayo',
+	seis: 'Junio',
+	siete: 'Julio',
+	ocho: 'Agosto',
+	nueve: 'Setiembre',
+	diez: 'Octubre',
+	once: 'Noviembre',
+	doce: 'Diciembre'
 };
