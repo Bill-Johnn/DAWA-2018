@@ -1,0 +1,82 @@
+                            Alumno : CONDORI CONDORI Johnn Bill
+                            Grupo  : B            Ciclo  : V
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\EJERCICIOS DE LABORATORIO////////////////////////////////////
+
+--------------------------------------------------------------------------------------------
+2. PRUEBAS DE ENVIO DE RESPUESTA AL NAVEGADOR
+
+    2.3 »»» El error que sucede es porque el arreglo de parametros no esa definido,
+            por lo    cual se tiene de denifir dicho variabe para que pueda
+            almacenar los valores y funcione correctamente
+
+            ARCHIVOS:
+                 IMAGEN 1 // IMAGEN 2 // form.html // variables.js
+    
+    2.5 
+        arreglo_parametros = "nombre=bill"
+                parametros = "nombre"
+                   valores = "bill"
+
+            ARCHIVOS:
+                     IMAGEN 3 // IMAGEN 3.1
+    2.6 »»»
+        Primero se dividio diferentes puntos de la URL para poder obtener un valor
+        especifico para luego almacenarlo e imprimirlo.
+--------------------------------------------------------------------------------------------
+3. CREACIÓN DE MÓDULO BÁSICO
+
+    3.3 »»» Es un ejercicio similar al anterior ya que los cumplen con la misma funcion
+            pero en este ejercicio se puede reusar el codigo y es mas ordenado.
+            ARCHIVOS:
+                 parser_var.js // importar.js
+
+    3.4 »»» Se mejoraria colocando funciones para que devuelvan las variables y que las muestre,
+            ademas se podria mejorar eliminando variables y funciones innecesarias.
+
+    3.8 »»» Este ejemplo puede ser util cuando mandemos variables por metodo GET a funciones como
+            el manejo de base de datos.
+
+            ARCHIVOS:
+                 form.html // parser_vars.js // importar.js // IMAGEM 4
+--------------------------------------------------------------------------------------------
+4. EJERCICIOS DE IMPLEMENTACIÓN DE MÓDULOS
+    4.1 »»»
+            ARCHIVOS:
+                IMAGEM 
+    4.2 »»»
+            ARCHIVOS:
+                IMAGEM 
+    4.3 »»»
+--------------------------------------------------------------------------------------------
+5. PRUEBAS BASICAS CON REPL
+    5.1 »»»
+            ARCHIVOS:
+                IMAGEM 5
+    5.3 »»»
+            ARCHIVOS:
+                IMAGEM 6
+    5.4 »»»
+    5.7 »»»
+--------------------------------------------------------------------------------------------
+6. USO DE FUNCIÓN DEBUGGER
+    6.6 »»»
+            ARCHIVOS:
+                 debug.js // lorem.txt // IMAGEM 7
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ TAREA ////////////////////////////////////////
+1.
+2.
+3.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ CONCLUSIONES /////////////////////////////////
+1.-
+2.-
+3.-
+4.-
+5.-
+6.-
+7.-
+8.-
+9.-
+10.-
