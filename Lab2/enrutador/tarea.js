@@ -1,7 +1,7 @@
 var http = require('http'),
 	urls = require('url'),
 	fs   = require('fs'),
-	port = 8080;
+	port = 6699;
 
 http.createServer(function(req, res){
 	url = urls.parse(req.url).pathname;
@@ -16,7 +16,7 @@ function router(rutas, url, res){
 		res.end;
 	}
 }
-vertimos a objeto
+
 var rutas = {};
 rutas['/'] = inicio;
 rutas['/nos.html'] = nosotros;

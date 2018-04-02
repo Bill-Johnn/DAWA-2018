@@ -41,13 +41,12 @@
                  form.html // parser_vars.js // importar.js // IMAGEM 4
 --------------------------------------------------------------------------------------------
 4. EJERCICIOS DE IMPLEMENTACIÓN DE MÓDULOS
-    4.1 »»»
+    4.1 y 4.2 »»»
             ARCHIVOS:
-                IMAGEM 
-    4.2 »»»
-            ARCHIVOS:
-                IMAGEM 
+                IMAGEM hora.png // Archivo hora.js
     4.3 »»»
+            ARCHIVOS:
+                IMAGEM Enrutador.png // carpeta enrutador
 --------------------------------------------------------------------------------------------
 5. PRUEBAS BASICAS CON REPL
     5.1 »»»
@@ -57,7 +56,11 @@
             ARCHIVOS:
                 IMAGEM 6
     5.4 »»»
+            ARCHIVOS:
+                IMAGEM meses.png // carpeta meses
     5.7 »»»
+            ARCHIVOS:
+                IMAGEN navidad.png // Archivo navidad.js
 --------------------------------------------------------------------------------------------
 6. USO DE FUNCIÓN DEBUGGER
     6.6 »»»
@@ -66,17 +69,7 @@
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ TAREA ////////////////////////////////////////
 1.
-2.
-3.
+2. IMAGEN tarea2.png
+3. Node Inspector es un debugger para Node.js que permite realizar las tareas de debug en remoto.
+        IMAGEN tarea3.png // ARCHIVO inspector.js
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ CONCLUSIONES /////////////////////////////////
-1.-
-2.-
-3.-
-4.-
-5.-
-6.-
-7.-
-8.-
-9.-
-10.-
