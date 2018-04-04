@@ -20,5 +20,5 @@ app.delete('/user', function(req, res) {
 })
 
 app.listen(3000, function() {
-	console.log('Aplicacion de ejemplo escuchando en el puerto 3000!')
+	console.log('aplicacion de ejemplo escuchando en el puerto 3000!')
 });
