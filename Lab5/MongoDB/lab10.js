@@ -9,7 +9,15 @@ app.set('view engine','jade');
 
 app.get('/',function(req,res){
   res.send('Hola mundo');
-})
+});
+
+app.get('/login',function(req,res){
+  res.render('login');
+});
+
+app.get('/table',function(req,res){
+  res.render('table');
+});
 
 app.get('/producto', producto.show);
 app.post('/producto', producto.create);
