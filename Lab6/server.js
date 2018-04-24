@@ -14,6 +14,10 @@ app.get('/', function(req, res){
 io.on('connection',function(socket){
   console.log('Usuario conectado!');
 
+  user.show(function(data){
+    io.emit('listar',data);
+  });
+
   socket.on('crear',function(data){
     user.create(data,function(rpta){
       console.log(rpta);

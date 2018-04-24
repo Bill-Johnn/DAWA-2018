@@ -1,0 +1,48 @@
+INFORME 5 - Drives para Node.js de MongoDB
+
+    1.8 Instalación de MongoDB.
+        ./imagenes 01.png
+        ./imagenes 02.png
+
+    2.3 Ejecutando mongo.
+        ./imagenes 03.png
+
+    2.5. Conectamos a la base de datos test, ingresamos un documento de prueba.
+        ./imagenes 04.png
+
+    3.2 Instalamos mongoose
+        >npm install mongoose --save
+        ./imagenes 05.png
+
+    3.4 Instlaremos "body-parser" el cual nos permite hacer tratamientos.
+        ./imagenes 06.png
+
+    3.5 Creamos un archivo "lab10.js"
+    3.10 Capturas de operaciones
+        ./imagenes 07.png
+        ./imagenes 08.png
+        ./imagenes 09.png
+        ./imagenes 10.png      
+
+    3.16 Instalando jade
+        ./imagenes 11.png
+
+    3.16 Mostrando la vista mediante interfaz
+        ./imagenes 12.png
+        ./imagenes 13.png
+
+    3.19 Resultado final
+        ./imagenes 14.png
+
+
+    CONCLUSIONES
+
+    Las bases de datos NoSQL, a diferencia de base de datos SQL, como MySQL u Oracle,
+    presentan ciertas diferencias. Por empezar no utilizan el concepto de tablas, sino de
+    documentos, además no son bases de datos relacionales. Estos documentos, al igual que las
+    tablas/registros, tienen atributos que nos permitirán guardar valores con distintos tipos
+    de datos, como String, Integer, Double, Boolean e incluso Array. En realidad cada
+    documento tendrá un formato Json, lo cual nos permitirá adaptarlos perfectamente a
+    nuestro proyecto Node.
+
+
