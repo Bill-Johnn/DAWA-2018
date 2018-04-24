@@ -2,7 +2,7 @@ var express = require('express'),
 app = express(),
 http = require('http').createServer(app),
 port = process.env.PORT || 3000,
-io = require('socket.io')(http);
+io = require('socket.io')(http),
 user = require('./models/user');
 
 app.set('view engine', 'jade');
@@ -13,11 +13,14 @@ app.get('/', function(req, res){
 
 io.on('connection',function(socket){
   console.log('Usuario conectado!');
+
   socket.on('crear',function(data){
     user.create(data,function(rpta){
-      io,emit('nuevo',rpta);
+      console.log(rpta);
+      io.emit('nuevo',rpta);
     });
   });
+
   socket.on('disconnect',function () {
     console.log('Usuario desconectado!!');
   });

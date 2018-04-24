@@ -1,0 +1,72 @@
+                        Informe 4 - Sitio web con Express
+    
+2.2 Instalación de Express
+    ./imagenes 1.png
+
+2.3 Crear archivo indes.js
+    ./Lab4/Informe index.js
+
+2.4 Hola mundo con Express
+    ./imagenes 2.png
+
+2.5 Instalación de express-generator de manera global
+    ./imagenes 3.png
+
+2.6 express -h
+    ./imagenes 4.png
+
+2.7 express miapp
+    ./imagenes 5.png
+
+2.8 Instalamos dependencias
+    ./imagenes 6.png
+
+2.11 Express con DEBUG
+    ./imagenes 7.png
+
+2.18 Probando codigó con Postman
+    GET: ./imagenes 8.png
+    POST ./imagenes 9.png
+    PUT: ./imagenes 10.png
+    DELETE: ./imagenes 11.png
+
+2.19 creando nueva estructura para llamar mediante express
+    app.use(express.static('public'))
+    ./imagenes 12.png
+
+2.21 Prueba de punto 2.19
+    ./imagenes 13.png
+
+2.22 Express permite el uso de varios directorios. Usamos distintos middleware.
+    app.use(express.static('public'))
+    app.use(express.static('files'))
+
+2.23 Prefijos con rutas
+        app.use('/static', express.static('public'))
+
+2.24 Probando los prefijos con rutas
+    ./imagenes 14.png
+
+2.25 Errores en Express, probando error 4xx
+    ./imagenes 15.png
+
+2.26 Errores en Express, probando error 5xx
+    ./imagenes 16.png
+
+                                            TAREA
+    Carpeta Landing Page
+        ./imagenes 17.png
+        ./imagenes 18.png
+        ./imagenes 19.png
+        ./imagenes 20.png        
+        ./imagenes 21.png
+        ./imagenes 22.png
+
+                                    Conlcusiones
+
+    El API que proporciona es muy fácil de entender y manejar, te ahorra tiempo 
+    y te ayuda en tu desarrollo.
+
+    Es la mejor opción del mercado para aplicaciones en tiempo real, como chats 
+    online o determinados juegos.
+

@@ -1,7 +1,10 @@
 var mongoose = require('mongoose'),
 Schema = mongoose.Schema;
 
-mongoose.connect('mongodb://localhost/chat');
+mongoose.connect('mongodb://localhost:27017/chat', () => {
+    console.log('Conexion a la base de datos correcta')
+});
+//mongoose.createConnection('mongodb://localhost/chat');
 
 var user_schema = new Schema({
   _id: String,
