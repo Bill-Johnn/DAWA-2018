@@ -15,7 +15,7 @@ io.on('connection',function(socket){
   console.log('Usuario conectado!');
 
   user.show(function(data){
-    io.emit('listar',data);
+    socket.emit('listar',data);
   });
 
   socket.on('crear',function(data){
@@ -25,6 +25,20 @@ io.on('connection',function(socket){
     });
   });
 
+
+	socket.on('actualizar',function(data){
+		user.update(data, function(rpta){
+			io.emit('nuevo',rpta);
+			io.emit('actualizado',rpta);
+		});
+	});
+
+	socket.on('eliminar',function(data){
+		user.delete(data,function(rpta){
+			io.emit('borrado',rpta);
+		});
+  });
+  
   socket.on('disconnect',function () {
     console.log('Usuario desconectado!!');
   });

@@ -1,0 +1,60 @@
+LABORATORIO 06 -  Implementación con Socket.io
+
+    1.2 instalación del package.json
+        ./imagenes 01.png
+
+    1.7 Resultado de la interfaz.
+        ./imagenes 02.png
+
+    2.5 Comprobando la conexion de usuarios
+        ./imagenes 03.png
+    
+    2.7 Comprobando si se manda la información
+        ./imagenes 04.png
+
+    2.14 Probando la función de insertar y almacenar los datos
+        ./imagenes 05.png
+
+    3.4 Mostrando los datos almacenados en mongo
+        ./imagenes 06.png
+
+    3.5 Cuando ingresamos a otro navegador los datos almacenados se duplican en la  
+        primera vista, de tal forma que siempre se duplicaran todos los datos almacenados
+        mientras ingrese un nuevo usuario.
+        ./imagenes 07.png
+
+    3.7 Arreglando la lista de usuarios
+        ./imagenes 08.png
+
+    4.6 Modificar un registro   
+        ./imagenes 09.png
+        ./imagenes 10.png
+        ./imagenes 11.png
+
+    5.5 Eliminar un registro
+        ./imagenes 12.png
+        ./imagenes 13.png
+
+    TAREA
+    1. Alerta cuando se modifique
+        ./imagenes 14.png
+    2. Identificar cuando se crea y actualiza
+        ./imagenes 15.png
+    3. Combobox
+        ./imagenes 16.png
+        ./imagenes 17.png
+
+    CONCLUSIONES
+
+    Socket.io es una librería open source con una amplia comunidad que nos ayudará a contruir
+    aplicaciones con conexión persitente entre cliente y servidor.
+    
+    Socket.io está desarrollado completamente en Javascript y, su objetivo es hacer que las
+    aplicaciones en tiempo real tengan posibilidad de ejecutarse en cualquier navegador,
+    incluidos los dispositivos móviles, salvando las diferencias entre los diferentes
+    protocolos.
+    
+    Para usar socket.io en el servidor debemos usar el objeto io. Socket.io se basa en
+    eventos, pero para manejar estos eventos primero debemos crear una conexión entre el
+    servidor y el cliente.
+

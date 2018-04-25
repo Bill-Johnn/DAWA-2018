@@ -21,6 +21,11 @@ block content
             .form.group 
                 label(for="profile_pic") Foto:
                 input#profile_pic.form-control(type="text", placeholder="URL de la foto")
+            .form-group
+                label(for='premium') Premium:
+                select#active.form-control
+                    option(value='true') Sí
+                    option(value='false') No                
             br
             button.btn.btn-success(type="submit") Guardar
     .col-xs-8
@@ -33,4 +38,5 @@ block content
                     th Zona horaria
                     th Idioma
                     th Foto
+                    th Premium
             tbody
