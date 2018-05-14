@@ -3,7 +3,7 @@ import { Redirect } from 'react-router-dom';
 
 import classes from './NewPost.css';
 
-class NewPost extends Comment {
+class NewPost extends Component {
     state = {
         title: '',
         content: '',

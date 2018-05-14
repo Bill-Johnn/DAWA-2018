@@ -20,6 +20,16 @@
     width: 80%;
     box-sizing: border-box;
     border: 1px solid #fa923f;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.NewPost button {
+    margin: 5px 0;
+    padding: 10px;
+    font: inherit;
+    border: 1px solid #fa923f;
     background-color: transparent;
     color: #fa923f;
     cursor: pointer;
