@@ -1,0 +1,48 @@
+Informe de Laboratorio 09 - COMPONENTES
+
+	 2.3 Creando conponente y llamado en App.js
+		 ./01.png
+
+	 3.2 Utilizando "props" en componentes
+		 ./02.png
+
+	 3.6 Demostramos el comportamiento del componente siendo reutilizado con distintos valores
+		 ./03.png
+
+	 4.2 Ejecutando comando "npm run eject" para generar compnentes CSS
+		 ./04.png
+
+	 5.6 Ciclo de vida de componentes con "States"
+		 ./05.png
+
+   TAREA
+	1. Realizar la creación de un componente calculadora que pueda hacer las funciones básicas:
+	    •Suma
+	    •Resta
+            •Multiplicación
+	    •División
+	    •Porcentaje
+
+	Carpeta tarealab09
+	Imagenes de resultados:
+		Inicio: "./06.png"
+		Suma: "./07.png"
+		Resta: "./08.png"
+		Multiplicacion: "./09.png"
+		Division: "./10.png"
+		Porcentaje: "./11.png"
+		Limpiar: "./12.png"
+
+   CONCLUSIONES
+	• Todo componente de React, tiene un método Render que es el que se encarga de renderizar
+	  en el navegador el HTML correspondiente al componente.
+	• El método Render se llama automáticamente cuando se crea un componente y cuando el estado del 
+	  componente se actualiza.
+	• Un componente en React puede recibir propiedades como parámetros desde un componente padre 
+	  para poder insertar valores y eventos en su HTML.
+	• Además de las props, los componentes en React pueden tener estado. Lo característico del 
+	  estado es que si éste cambia, el componente se renderiza automáticamente. 
+	• El ciclo de vida es una serie de funciones que se ejecutan en distintos momentos de 
+	  la vida del componente y nos permiten realizar distintas acciones en esos momentos.
+	• El ciclo de vida es una de las que hacen más poderoso a nuestros componentes de React 
+	  ya que nos permite tener un control total sobre que ocurre en nuestra aplicación en todo momento.
